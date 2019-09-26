@@ -1,1 +1,1 @@
-# People
+# MyPeople
