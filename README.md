@@ -1,8 +1,9 @@
 # My People
 
-## Project Writeup
-[My Approach and Design](https://github.com/sonalikarmalkar/MyPeople/wiki/Approach-and-Design)
+URL: [My People](https://sonalikarmalkar.github.io/MyPeople/)
 
+## Part One - Project Writeup
+[My Approach and Design](https://github.com/sonalikarmalkar/MyPeople/wiki/Approach-and-Design)
 
 ------------------------------------------------------------------------------------------------------------------------------
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
