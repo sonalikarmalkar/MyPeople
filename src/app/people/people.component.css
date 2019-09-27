@@ -1,0 +1,36 @@
+.add-person {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.add-person-input {
+    display: inline-block;
+}
+
+.add-person-input label {
+    padding: 0 15px;
+}
+
+.add-person-input input {
+    padding: 5px;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+}
+
+tr, th, td {
+    padding: 10px;
+}
+
+.sortable::after {
+    content: '^';
+    padding: 0 2px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+}
