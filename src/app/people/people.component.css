@@ -1,3 +1,19 @@
+th {
+    width: 20%;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+table {
+    margin: 0 auto;
+}
+
+tr, th, td {
+    padding: 10px;
+}
+
 .add-person {
     padding-bottom: 20px;
     text-align: center;
@@ -15,22 +31,23 @@
     padding: 5px;
 }
 
-th:hover {
-    cursor: pointer;
+.button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
 }
 
-table {
-    margin: 0 auto;
-}
 
-tr, th, td {
-    padding: 10px;
+.sortable {
+    position: relative;
 }
 
 .sortable::after {
-    content: '^';
-    padding: 0 2px;
+    content: '';
+    border: 6px solid transparent;
+    border-bottom-color: black;
     display: inline-block;
-    vertical-align: middle;
-    font-weight: bold;
+    position: absolute;
+    top: 15%;
+    right: 5%;
 }
