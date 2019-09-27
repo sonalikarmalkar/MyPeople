@@ -27,6 +27,7 @@ export class PeopleService {
       return this.http.post(this.peopleUrl, person, this.httpOptions);
   }
 
+  /** Deletes Person from server */
   deletePerson(person: Person): Observable<any> {
       this.url = `${this.peopleUrl}/${person}`;
       return this.http.delete<Person>(this.url,  this.httpOptions);

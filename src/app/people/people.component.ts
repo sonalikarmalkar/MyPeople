@@ -19,7 +19,7 @@ export class PeopleComponent implements OnInit {
 
   /** Gets list of people */
   getPeople() {
-      this.peopleService.getPeople().subscribe(people => this.people = people);
+      return this.peopleService.getPeople().subscribe(people => this.people = people);
   }
 
   /** Adds person to list */
