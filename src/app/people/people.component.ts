@@ -43,7 +43,6 @@ export class PeopleComponent implements OnInit {
   sortable() {
       const sortData = this.people.slice();
       this.people = sortData.sort((person1, person2) => this.compare(person1.fullName, person2.fullName));
-      console.log(this.people);
   }
 
   /** Compares two fields and returns the correct order for sorting */
