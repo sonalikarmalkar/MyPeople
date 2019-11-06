@@ -1,4 +1,4 @@
-# My People
+# My People - A project to learn Angular
 
 URL: [My People](https://sonalikarmalkar.github.io/MyPeople/)
 
